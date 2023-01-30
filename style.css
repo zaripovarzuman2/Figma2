@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    left: 20%;
+    border: 2px solid;
+}
+
+.container .header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+
+.container .header .header_left {
+    width: 700px;
+    height: 100%;
+    position: absolute;
+    padding: 2%;
+}
+
+.container .header .header_left a {
+    color: black;
+}
+
+.container .header .header_right {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    left: 70%;
+}
+
+.container .header .header_right button {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    background-color: blue;
+    border-radius: 40%;
+}
+
+.container .header .header_right button h4 {
+    color: white;
+}
+
+.container .section {
+    width: 1000px;
+    height: 900px;
+    position: relative;
+}
+
+.container .section .section_left {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    position: absolute;
+}
+
+.container .section .section_left h1 {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+.container .section .section_left p {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+
+.container .section .section_left img {
+    position: absolute;
+    top: 55%;
+    left: 3%;
+}
+
+.container .section .section_left h3 {
+    position: absolute;
+    top: 60%;
+    left: 18%;
+}
+
+.container .section .section_left button {
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    background-color: orange;
+    border-radius: 40%;
+}
+
+.container .section .section_left button h4 {
+    color: white;
+}
+
+.container .section .section_right {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.container .section .section_right img {
+    position: absolute;
+    left: 3%;
+}
+
+.container .section .section_right img:nth-child(2) {
+    position: absolute;
+    left: 58%;
+    top: 40%;
+}
+
+.container .section .section_right img:nth-child(3) {
+    position: absolute;
+    top: 85%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container2 {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    border: 2px solid;
+    left: 20%;
+}
+
+.container2 .top {
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+}
+
+.container2 .top a {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.container2 .top h1 {
+    position: absolute;
+    left: 33%;
+    top: 28%;
+}
+
+.container2 .top p {
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+
+
+.container2 .bottom {
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+}
+
+.container2 .bottom img {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+
+.container2 .bottom .img2 {
+    position: absolute;
+    left: 83%;
+    top: 50%;
+}
+
+.container2 .bottom a {
+    position: absolute;
+    top: 93%;
+    left: 44%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container3 {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    border: 2px solid;
+    left: 20%;
+}
+
+.container3 .section_left2 {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+}
+
+.container3 .section_left2 h1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.container3 .section_left2 button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    background-color: blue;
+    color: white;
+    border-radius: 30%;
+}
+
+.container3 .section_left2 .h2_1 {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.container3 .section_left2 .h2_2 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+
+.container3 .section_left2 .p1 {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+}
+
+.container3 .section_left2 .p2 {
+    position: absolute;
+    top: 63%;
+    left: 5%;
+}
+
+.container3 .section_left2 .p3 {
+    position: relative;
+    top: 58%;
+    left: 55%;
+}
+
+.container3 .section_left2 .img1 {
+    position: absolute;
+    top: 46%;
+    left: 5%;
+}
+
+.container3 .section_left2 .img2 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.container3 .section_right2 {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+}
+
+.container3 .section_right2 .div {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    bottom: 5%;
+    left: 10%;
+    border-radius: 10%;
+    background-color: rgb(221, 219, 219);
+}
+
+.container3 .section_right2 .div h3 {
+    position: absolute;
+    left: 20%;
+}
+
+.container3 .section_right2 .div p {
+    position: absolute;
+    top: 37%;
+}
+
+.container3 .section_right2 .div form {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.container3 .section_right2 .div form .input1 {
+    position: relative;
+    left: 42%;
+}
+
+.container3 .section_right2 .div form .input2 {
+    position: absolute;
+    left: 42.2%;
+}
+
+.container3 .section_right2 .div form .input3 {
+    position: relative;
+    left: 42%;
+}
+
+.container3 .section_right2 .div form .input4 {
+    position: absolute;
+    left: 42.2%;
+}
+
+
+.container3 .section_right2 .div form button {
+    position: absolute;
+    top: 150%;
+    right: 70%;
+    background-color: aqua;
+}
+
+.container3 .section_right2 .rasm1 {
+    position: relative;
+    top: 60%;
+    left: 79%;
+    z-index: 1;
+}
+
+.container3 .section_right2 .rasm2 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    z-index: 1;
+}
